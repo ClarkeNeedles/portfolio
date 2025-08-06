@@ -1,200 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-        <title>Clarke Needles</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-	            <a href="" class="home__social-icon"><i class='bx bxl-gmail' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Marlon</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <div class="footer__social">
-                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-	        <a href="" class="home__social-icon"><i class='bx bxl-gmail' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
-        </footer>
+    <!-- =====BOX ICONS===== -->
+    <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet"/>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Clarke Needles</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="main.js"></script>
-    </body>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            <br /><span class="home__title-color">Clarke Needles</span
+            ><br />Computer Engineer
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/clarke-needles-cwn/"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/ClarkeNeedles" class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="mailto:c.w.needles@gmail.com" class="home__social-icon"
+            ><i class="bx bx-envelope-open"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="60"
+                href="img/perfil.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="img/about.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I am Clarke</h2>
+            <p class="about__text">
+              Third year Computer Engineering student studying at Queen's
+              University. Background in ...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== EXPERIENCE =====-->
+      <section class="experience section" id="experience">
+        <h2 class="section-title">Experience</h2>
+
+	<div class="timeline">
+    	  <!-- Single Timeline Item -->
+    	  <div class="timeline-item">
+            <h3 class="timeline-title">Software Engineer Intern</h3>
+            <h4 class="timeline-company">ABC Tech Inc.</h4>
+            <p class="timeline-date">May 2022 – Aug 2022</p>
+            <p class="timeline-description">
+              - Built and optimized REST APIs for a large e-commerce platform.<br>
+              - Improved application performance by refactoring database queries.<br>
+              - Collaborated with cross-functional teams to deliver user-friendly features on time.
+            </p>
+          </div>
+
+          <!-- Repeat for more timeline items -->
+          <div class="timeline-item">
+            <h3 class="timeline-title">Junior Web Developer</h3>
+            <h4 class="timeline-company">XYZ Solutions</h4>
+            <p class="timeline-date">Sept 2021 – Dec 2021</p>
+            <p class="timeline-description">
+              - Created responsive designs using HTML, CSS, and JavaScript.<br>
+              - Debugged and resolved website bugs, leading to a 15% performance improvement.<br>
+              - Developed custom plugins for client WordPress websites.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <!--===== PROJECTS =====-->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+	<div class="skills__container bd-grid">
+          <h2 class="skills__subtitle">Team Projects</h2>
+        </div>
+        <div class="projects__container bd-grid">
+          <a href="https://github.com/ClarkeNeedles/FractalGenerator" class="projects__img">
+            <img src="img/work1.jpg" alt="" />
+          </a>
+          <a href="https://github.com/ClarkeNeedles/DataStructures" class="projects__img">
+            <img src="img/work2.jpg" alt="" />
+          </a>
+          <a href="https://github.com/ClarkeNeedles/MachineLearningProj" class="projects__img">
+            <img src="img/work3.jpg" alt="" />
+          </a>
+          <a href="https://github.com/ClarkeNeedles/ParcelShield" class="projects__img">
+            <img src="img/work4.jpg" alt="" />
+          </a>
+          <a href="https://github.com/ClarkeNeedles/PasswordManager" class="projects__img">
+            <img src="img/work5.jpg" alt="" />
+          </a>
+          <a href="https://github.com/ClarkeNeedles/SketchySkies" class="projects__img">
+            <img src="img/work6.jpg" alt="" />
+          </a>
+        </div>
+	<div class="skills__container bd-grid">
+          <h2 class="skills__subtitle">Individual Projects</h2>
+        </div>
+      </section>
+      
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <h2 class="skills__subtitle">Professional Skills</h2>
+        </div>
+        <div class="skills__container bd-grid">
+          <div class="skills__data">
+            <i class="bx bxl-python skills__icon"></i>
+            <span>Python</span>
+          </div>
+          <div class="skills__data">
+            <i class="bx bxl-java skills__icon"></i>
+            <span>Java</span>
+          </div>
+          <div class="skills__data">
+	    <svg  
+              xmlns="http://www.w3.org/2000/svg" 
+              width="24" 
+              height="24"  
+              fill="currentColor" 
+              viewBox="0 0 24 24"
+              class="skills__icon">
+            <path d="M4 8c0 2.8-1.68 2.99-2.01 3v2c.1 0 2.01.03 2.01 3 0 4.74 3.27 6 5 6h1v-2h-.99C8.7 20 6 19.83 6 16c0-1.99-.67-3.25-1.5-4C5.34 11.25 6 9.99 6 8c0-3.83 2.7-3.99 3-4h1V2H9C7.27 2 4 3.26 4 8M20 8c0-4.74-3.27-6-5-6h-1v2h.99C15.3 4 18 4.17 18 8c0 1.99.67 3.25 1.5 4-.84.75-1.5 2.01-1.5 4 0 3.83-2.7 3.99-3 4h-1v2h1c1.73 0 5-1.26 5-6 0-2.8 1.68-2.99 2.01-3v-2c-.1 0-2.01-.03-2.01-3"></path>
+            </svg>
+            <span>C</span>
+          </div>
+	  <div class="skills__data">
+            <i class="bx bxl-c-plus-plus skills__icon"></i>
+            <span>C++</span>
+          </div>
+	  <div class="skills__data">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              class="skills__icon">
+            <path d="M17.16 11.5h.94v.94h-.94z"></path>
+            <path d="M20.68 7a1.76 1.76 0 0 0-.68-.64C17.67 5 15.29 3.64 12.93 2.27a1.73 1.73 0 0 0-1.89 0L4 6.36a1.67 1.67 0 0 0-.9 1.52v8.24a1.75 1.75 0 0 0 .21.87 2 2 0 0 0 .16.23l.08.09.13.11a2 2 0 0 0 .25.18l.83.47.27.16.23.13.12.07.37.21.32.19.27.15.54.31.14.08.35.2.14.08 3.5 2a1.73 1.73 0 0 0 1.89 0l7.1-4.01a1.7 1.7 0 0 0 .65-.65 1.75 1.75 0 0 0 .21-.87V7.88a1.8 1.8 0 0 0-.18-.88m-8.56 11.61h-.07a6.61 6.61 0 1 1 0-13.22 6.61 6.61 0 0 1 5.71 3.28l-2.88 1.66a3.27 3.27 0 0 0-2.8-1.62A3.29 3.29 0 0 0 8.75 12a3.2 3.2 0 0 0 .44 1.63 3.29 3.29 0 0 0 5.73 0l2.88 1.66a6.6 6.6 0 0 1-5.68 3.32m7.38-7.11h-.93v.94h.93v.47h-.93v.94h-.47v-.94h-.94v.94h-.47v-.94h-.94v-.47h.94v-.94h-.94V11h.94v-.9h.47v.9h.94v-.9h.47v.9h.93z"></path>
+            </svg>
+            <span>C#</span>
+          </div>
+	  <div class="skills__data">
+            <i class="bx bxl-git skills__icon"></i>
+            <span>Git</span>
+          </div>
+	  <div class="skills__data">
+            <i class="bx bxl-github skills__icon"></i>
+            <span>GitHub</span>
+          </div>
+	  <div class="skills__data">
+             <object type="image/svg+xml" data="icons/jenkins.svg" class="skills__icon"></object>
+             <span>Jenkins</span>
+          </div>
+  	  <div class="skills__data">
+             <object type="image/svg+xml" data="icons/jira.svg" class="skills__icon"></object>
+             <span>Jira</span>
+          </div>
+  	  <div class="skills__data">
+            <i class="bx bx-git-pull-request skills__icon"></i>
+            <span>SVN</span>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Enviar"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <div class="footer__social">
+        <a
+          href="https://www.linkedin.com/in/clarke-needles-cwn/"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/ClarkeNeedles" class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="mailto:c.w.needles@gmail.com" class="footer__icon"
+          ><i class="bx bx-envelope-open"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; Clarke Needles. All rights reserved.</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+  </body>
 </html>
