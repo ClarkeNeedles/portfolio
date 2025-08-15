@@ -352,7 +352,29 @@ object.skills__icon {
   height: 3rem;
 }
 
+/* ===== DOCUMENTS =====*/
+.documents__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+.documents__list {
+  padding: 0;
+  margin: 1rem 0;
+}
+.documents__link {
+  font-size: 1.2rem; /* Increase text size */
+  color: #007bff; /* Link color (blue) */
+  text-decoration: none; /* Remove underlines for a clean look */
+  font-weight: 500; /* Slightly bold for emphasis */
+  transition: color 0.3s ease, transform 0.2s ease; /* Add hover effects */
+}
+
 /* ===== CONTACT =====*/
+.contact__container {
+  padding-bottom: 5rem;
+}
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
