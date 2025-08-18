@@ -464,6 +464,9 @@ img {
   cursor: pointer;
   margin-left: auto;
 }
+.contact__container p {
+  padding-top: 2rem;
+}
 
 /* ===== FOOTER =====*/
 .footer {
