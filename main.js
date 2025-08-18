@@ -59,3 +59,26 @@ sr.reveal('.home__img, .about__img, .about__text, .skills__img', {
 sr.reveal('.skills__data, .contact__input', { interval: 50 });
 sr.reveal('.home__social-icon, .projects__img, .contact__input, \
 .timeline-item, .document__card', { interval: 200 });
+
+/*===== CONTACT FORM SUBMISSIONS =====*/
+document.getElementById("contactForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  const response = await fetch("/api/contact", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, email, message }),
+  });
+
+  const status = document.getElementById("status");
+
+  if (response.ok) {
+    status.innerText = "Message sent successfully!";
+  } else {
+    status.innerText = "Failed to send message. Please try again.";
+  }
+});
