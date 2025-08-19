@@ -6,14 +6,6 @@
 
 Website portfolio created entirely using plain html, css, and javascript. Also using a backend resend API.
 
----
-
-## **Table of Contents**
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## **License**
 
 This project is licensed under a default copyright license. See the [LICENSE](LICENSE) file for details.
