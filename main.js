@@ -52,12 +52,12 @@ const sr = ScrollReveal({
   delay: 200,
 });
 
-sr.reveal('.home__data, .about__subtitle, .skills__subtitle, .timeline', {});
+sr.reveal('.home__data, .about__subtitle, .projects__container, .skills__subtitle', {});
 sr.reveal('.home__img, .about__img, .about__text, .skills__img', {
   delay: 400,
 });
 sr.reveal('.skills__data, .contact__input', { interval: 50 });
-sr.reveal('.home__social-icon, .projects__img, .contact__input, \
+sr.reveal('.home__social-icon, .timeline__item, .projects__img, .contact__input, \
 .timeline-item, .document__card', { interval: 200 });
 
 /*===== CONTACT FORM SUBMISSIONS =====*/
