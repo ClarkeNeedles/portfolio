@@ -495,8 +495,13 @@ img {
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 320px) {
+  .home__img {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 460px) {
   .home {
-    row-gap: 2rem;
+    padding: 0 0 4rem;
   }
   .home__img {
     width: 300px;
