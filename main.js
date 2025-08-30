@@ -52,13 +52,21 @@ const sr = ScrollReveal({
   delay: 200,
 });
 
-sr.reveal('.home__data, .about__subtitle, .projects__container, .skills__subtitle', {});
-sr.reveal('.home__img, .about__img, .about__text, .skills__img', {
+sr.reveal('.home__data, .about__subtitle, .projects__container', {});
+sr.reveal('.home__img, .about__img, .about__text, .skill__header', {
   delay: 400,
 });
 sr.reveal('.skills__data, .contact__input', { interval: 50 });
-sr.reveal('.home__social-icon, .timeline__item, .projects__img, .contact__input, \
+sr.reveal('.home__social-icon, .timeline__item, .project__card, .contact__input, \
 .timeline-item, .document__card', { interval: 200 });
+
+/*===== SKILLS DROPDOWN =====*/
+document.querySelectorAll('.skill__header').forEach(header => {
+  header.addEventListener('click', () => {
+    const skill = header.parentElement;
+    skill.classList.toggle('active');
+  });
+});
 
 /*===== CONTACT FORM SUBMISSIONS =====*/
 document.getElementById("contactForm").addEventListener("submit", async (e) => {

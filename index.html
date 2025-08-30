@@ -4,14 +4,11 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" href="styles.css" />
-     
-      <!-- =====BOX ICONS===== -->
+      <!--=====BOX ICONS=====-->
       <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        
       <title>Clarke Needles</title>
    </head>
    <body>
-     
       <!--===== HEADER =====-->
       <header class="l-header">
          <nav class="nav bd-grid">
@@ -46,7 +43,6 @@
          </nav>
       </header>
       <main class="l-main">
-        
          <!--===== HOME =====-->
          <section class="home bd-grid" id="home">
             <div class="home__data">
@@ -63,7 +59,7 @@
                <a href="https://github.com/ClarkeNeedles" class="home__social-icon">
                <i class="bx bxl-github"></i>
                </a>
-               <a href="mailto:c.w.needles@gmail.com" class="home__social-icon">
+               <a href="mailto:clarke.needles@queensu.ca" class="home__social-icon">
                <i class="bx bx-envelope-open"></i>
                </a>
             </div>
@@ -71,7 +67,6 @@
                <img x="50" y="60" src="img/profile.jpg" alt="Profile Picture"/>
             </div>
          </section>
-        
          <!--===== ABOUT =====-->
          <section class="about section" id="about">
             <h2 class="section-title">About</h2>
@@ -90,7 +85,6 @@
                </div>
             </div>
          </section>
-                    
          <!--===== EXPERIENCE =====-->
          <section class="experience section" id="experience">
             <h2 class="section-title">Experience</h2>
@@ -101,7 +95,7 @@
                   <p class="timeline-date">May 2025 – Aug 2025</p>
                   <p class="timeline-description">
                      • C and C++ to work with the WinAPI for the system apps. Working with ATL and COM objects.<br>
-                     • Developed a TreeView file navigator panel using the MVP model to improve productivity for a service team app.
+                     • Developed a TreeView file navigator panel using the MVP patern to improve productivity for a service team app.
                   </p>
                </div>
                <div class="timeline-item">
@@ -115,71 +109,202 @@
                </div>
             </div>
          </section>
-              
          <!--===== PROJECTS =====-->
          <section class="projects section" id="projects">
             <h2 class="section-title">Projects</h2>
-            <div class="skills__container bd-grid">
-               <h2 class="skills__subtitle">Personal Projects</h2>
+            <div class="projects__container bd-grid">
+               <h2>Personal Projects</h2>
             </div>
             <div class="projects__container bd-grid">
-               <a href="https://github.com/ClarkeNeedles/FractalGenerator" class="projects__img">
-               <img src="img/FractalGenerator.jpg" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/DataStructures" class="projects__img">
-               <img src="img/DataStructures.jpg" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/portfolio" class="projects__img">
-               <img src="img/portfolio.jpg" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/YouTubeAutomation" class="projects__img">
-               <img src="img/YouTubeAutomation.jpeg" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/PasswordManager" class="projects__img">
-               <img src="img/PasswordManager.jpg" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/SketchySkies" class="projects__img">
-               <img src="img/SketchySkies.jpg" alt="" />
-               </a>
-            </div>
-            <div class="skills__container bd-grid">
-               <h2 class="skills__subtitle">Team Projects</h2>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/FractalGenerator.jpg" alt="Fractal Generator" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Fractal Generator</h3>
+                     <p class="project__description">
+                        An application to generate and explore different types of fractals using CPP, SSE, AVX, and multithreading.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/FractalGenerator" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/portfolio.jpg" alt="Website Portfolio"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Website Portfolio</h3>
+                     <p class="project__description">
+                        Website portfolio created entirely using plain html, css, and javascript. Also using a backend resend API.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/portfolio" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/DataStructures.jpg" alt="Data Structures"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Data Structures</h3>
+                     <p class="project__description">
+                        Data structure library written entirely in C with algorithms.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/DataStructures" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/YouTubeAutomation.jpeg" alt="YouTube Automation"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">YouTube Automation</h3>
+                     <p class="project__description">
+                        Automated process to produce YouTube videos using python.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/YouTubeAutomation" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/PasswordManager.jpg" alt="Password Manager"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Password Manager</h3>
+                     <p class="project__description">
+                        A program to store passwords with encryption written in Java, using Swing.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/PasswordManager" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/SketchySkies.jpg" alt="Sketchy Skies"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Sketchy Skies</h3>
+                     <p class="project__description">
+                        Doodle-Jump ripoff using pygame.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/SketchySkies" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
             </div>
             <div class="projects__container bd-grid">
-               <a href="https://github.com/ClarkeNeedles/ParcelShield" class="projects__img">
-               <img src="img/ParcelShield.png" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/MachineLearningProj" class="projects__img">
-               <img src="img/MachineLearningProj.png" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/AudioAmp" class="projects__img">
-               <img src="img/AudioAmp.png" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/VisualizingWildfires" class="projects__img">
-               <img src="img/VisualizingWildfires.png" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/AutomatedFluidDispenser" class="projects__img">
-               <img src="img/AutomatedFluidDispenser.png" alt="" />
-               </a>
-               <a href="https://github.com/ClarkeNeedles/RollerCoasterDesign" class="projects__img">
-               <img src="img/RollerCoasterDesign.png" alt="" />
-               </a>
+               <h2>Team Projects</h2>
+            </div>
+            <div class="projects__container bd-grid">
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/MachineLearningProj.png" alt="Machine Learning Project" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Machine Learning Project</h3>
+                     <p class="project__description">
+                        A machine learning model to detect walking vs jumping.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/MachineLearningProj" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/ParcelShield.png" alt="Parcel Shield" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Parcel Shield</h3>
+                     <p class="project__description">
+                        Anti-theft package storage system to combat against porch pirates.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/ParcelShield" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/AudioAmp.png" alt="Audio Amp" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Audio Amp</h3>
+                     <p class="project__description">
+                        AC-DC power supply using a 10:1 transformer, full bridge rectifier, and voltage regulator. Power supply fed into the high current gain Darlington audio amplifier using BJT’s.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/AudioAmp" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/AutomatedFluidDispenser.png" alt="Automated Fluid Dispenser" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Automated Fluid Dispenser</h3>
+                     <p class="project__description">
+                        Using Arduino, IR sensor, peristaltic pump, motors, and SolidWorks to design a precise concentration-based fluid dispenser for medical applications.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/AutomatedFluidDispenser" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/VisualizingWildfires.png" alt="Visualizing Wildfires" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Visualizing Wildfires</h3>
+                     <p class="project__description">
+                        Using various Python libraries to interpret data with data frames and represent it visually using graphs and heat maps.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/VisualizingWildfires" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
+               <div class="project__card">
+                  <div class="project__media">
+                     <img src="img/RollerCoasterDesign.png" alt="Roller Coaster Design" class="project__media"/>
+                  </div>
+                  <div class="project__info">
+                     <h3 class="project__title">Roller Coaster Design</h3>
+                     <p class="project__description">
+                        Going through the engineering process in designing and building a roller coaster model.
+                     </p>
+                     <a href="https://github.com/ClarkeNeedles/RollerCoasterDesign" target="_blank" class="project__button">
+                     <i class="bx bxl-github"></i> View on GitHub
+                     </a>
+                  </div>
+               </div>
             </div>
          </section>
-              
          <!--===== SKILLS =====-->
          <section class="skills section" id="skills">
             <h2 class="section-title">Skills</h2>
             <div class="skills__container bd-grid">
-               <h2 class="skills__subtitle">Professional Skills</h2>
+               <h2>Professional Skills</h2>
             </div>
             <div class="skills__container bd-grid">
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/code-block.svg" class="skills__icon"></object>
-                     <span class="skills__name">Assembly</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/code-block.svg" class="skill__icon"></object>
+                     <span class="skill__name">Assembly</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
                         • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-274.html">
@@ -189,76 +314,67 @@
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/brackets-curly.svg" class="skills__icon"></object>
-                     <span class="skills__name">C</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/brackets-curly.svg" class="skill__icon"></object>
+                     <span class="skill__name">C</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="#experience">
-                        Software Engineer Intern
-                        </a><br>
-                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-278.html">
-                        ELEC 278: Fundamentals of Information Structures 
-                        </a><br>
-                        • <a href="https://github.com/ClarkeNeedles/DataStructures">
-                        Data Structures Project
-                        </a>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-278.html">ELEC 278: Fundamentals of Information Structures</a><br>
+                        • <a href="https://github.com/ClarkeNeedles/DataStructures">Data Structures Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/c-plus-plus.svg" class="skills__icon"></object>
-                     <span class="skills__name">C++</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/c-plus-plus.svg" class="skill__icon"></object>
+                     <span class="skill__name">C++</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="#experience">
-                        Software Engineer Intern
-                        </a><br>
-                        • <a href="https://github.com/ClarkeNeedles/FractalGenerator">
-                        Fractal Generator Project
-                        </a>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="https://github.com/ClarkeNeedles/FractalGenerator">Fractal Generator Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/c-sharp.svg" class="skills__icon"></object>
-                     <span class="skills__name">C#</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/c-sharp.svg" class="skill__icon"></object>
+                     <span class="skill__name">C#</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="#experience">
-                        Quality Assurance Engineering Intern
-                        </a>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/css.svg" class="skills__icon"></object>
-                     <span class="skills__name">CSS</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/css.svg" class="skill__icon"></object>
+                     <span class="skill__name">CSS</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://github.com/ClarkeNeedles/portfolio">
-                        Website Portfolio Project 
-                        </a>
+                        • <a href="https://github.com/ClarkeNeedles/portfolio">Website Portfolio Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/git.svg" class="skills__icon"></object>
-                     <span class="skills__name">Git</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/git.svg" class="skill__icon"></object>
+                     <span class="skill__name">Git</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
                         • Personal usage on projects both individually and with teams
@@ -266,11 +382,12 @@
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/github.svg" class="skills__icon"></object>
-                     <span class="skills__name">GitHub</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/github.svg" class="skill__icon"></object>
+                     <span class="skill__name">GitHub</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
                         • Personal usage on projects both individually and with teams
@@ -278,186 +395,279 @@
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/html.svg" class="skills__icon"></object>
-                     <span class="skills__name">HTML</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/html.svg" class="skill__icon"></object>
+                     <span class="skill__name">HTML</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://github.com/ClarkeNeedles/portfolio">
-                        Website Portfolio Project 
-                        </a>
+                        • <a href="https://github.com/ClarkeNeedles/portfolio">Website Portfolio Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/java.svg" class="skills__icon"></object>
-                     <span class="skills__name">Java</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/java.svg" class="skill__icon"></object>
+                     <span class="skill__name">Java</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-279.html">
-                        ELEC 279: Introduction to Object Oriented Programming 
-                        </a><br>
-                        • <a href="https://github.com/ClarkeNeedles/PasswordManager">
-                        Password Manager Project
-                        </a>
+                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-279.html">ELEC 279: Introduction to Object Oriented Programming</a><br>
+                        • <a href="https://github.com/ClarkeNeedles/PasswordManager">Password Manager Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/js.svg" class="skills__icon"></object>
-                     <span class="skills__name">JavaScript</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/js.svg" class="skill__icon"></object>
+                     <span class="skill__name">JavaScript</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://github.com/ClarkeNeedles/portfolio">
-                        Website Portfolio Project 
-                        </a>
+                        • <a href="https://github.com/ClarkeNeedles/portfolio">Website Portfolio Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/jenkins.svg" class="skills__icon"></object>
-                     <span class="skills__name">Jenkins</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/jenkins.svg" class="skill__icon"></object>
+                     <span class="skill__name">Jenkins</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="#experience">
-                        Software Engineer Intern
-                        </a><br>
-                        • <a href="#experience">
-                        Quality Assurance Engineering Intern
-                        </a>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/jira.svg" class="skills__icon"></object>
-                     <span class="skills__name">Jira</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/jira.svg" class="skill__icon"></object>
+                     <span class="skill__name">Jira</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="#experience">
-                        Software Engineer Intern
-                        </a><br>
-                        • <a href="#experience">
-                        Quality Assurance Engineering Intern
-                        </a>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/python.svg" class="skills__icon"></object>
-                     <span class="skills__name">Python</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/python.svg" class="skill__icon"></object>
+                     <span class="skill__name">Python</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://github.com/ClarkeNeedles/MachineLearningProj">
-                        Machine Learning Project
-                        </a> <br>
-                        • <a href="https://github.com/ClarkeNeedles/YouTubeAutomation">
-                        YouTube Automation Project
-                        </a> <br>
-                        • <a href="https://github.com/ClarkeNeedles/VisualizingWildfires">
-                        Predicting and Visualizing Wildfires Project
-                        </a> <br>
-                        • <a href="https://github.com/ClarkeNeedles/SketchySkies">
-                        Sketchy Skies Project
-                        </a>
+                        • <a href="https://github.com/ClarkeNeedles/MachineLearningProj">Machine Learning Project</a> <br>
+                        • <a href="https://github.com/ClarkeNeedles/YouTubeAutomation">YouTube Automation Project</a> <br>
+                        • <a href="https://github.com/ClarkeNeedles/VisualizingWildfires">Predicting and Visualizing Wildfires Project</a> <br>
+                        • <a href="https://github.com/ClarkeNeedles/SketchySkies">Sketchy Skies Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/solidworks.svg" class="skills__icon"></object>
-                     <span class="skills__name">SolidWorks</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/solidworks.svg" class="skill__icon"></object>
+                     <span class="skill__name">SolidWorks</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://github.com/ClarkeNeedles/ParcelShield">
-                        Parcel Shield Project 
-                        </a><br>
-                        • <a href="https://github.com/ClarkeNeedles/AutomatedFluidDispenser">
-                        Automated Fluid Dispenser Project 
-                        </a>
+                        • <a href="https://github.com/ClarkeNeedles/ParcelShield">Parcel Shield Project</a><br>
+                        • <a href="https://github.com/ClarkeNeedles/AutomatedFluidDispenser">Automated Fluid Dispenser Project</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/sql.svg" class="skills__icon"></object>
-                     <span class="skills__name">SQL</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/sql.svg" class="skill__icon"></object>
+                     <span class="skill__name">SQL</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-292.html">
-                        ELEC 292: Introduction to Data Science 
-                        </a>
+                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-292.html">ELEC 292: Introduction to Data Science</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/svn.svg" class="skills__icon"></object>
-                     <span class="skills__name">SVN</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/svn.svg" class="skill__icon"></object>
+                     <span class="skill__name">SVN</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="#experience">
-                        Software Engineer Intern
-                        </a><br>
-                        • <a href="#experience">
-                        Quality Assurance Engineering Intern
-                        </a>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/verilog.svg" class="skills__icon"></object>
-                     <span class="skills__name">Verilog</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/verilog.svg" class="skill__icon"></object>
+                     <span class="skill__name">Verilog</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-271.html">
-                        ELEC 271: Digital Systems
-                        </a>
+                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-271.html">ELEC 271: Digital Systems</a>
                      </p>
                   </div>
                </div>
                <div class="skill">
-                  <div class="skills__data">
-                     <object type="image/svg+xml" data="icons/vhdl.svg" class="skills__icon"></object>
-                     <span class="skills__name">VHDL</span>
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/vhdl.svg" class="skill__icon"></object>
+                     <span class="skill__name">VHDL</span>
+                     <span class="skill__arrow">▼</span>
                   </div>
-                  <div class="skills__dropdown">
+                  <div class="skill__dropdown">
                      <p>
                         <strong>Experience</strong> <br>
-                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-271.html">
-                        ELEC 271: Digital Systems
-                        </a>
+                        • <a href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-271.html">ELEC 271: Digital Systems</a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="skills__container bd-grid">
+               <h2>Workplace Skills</h2>
+            </div>
+            <div class="skills__container bd-grid">
+               <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/communication.svg" class="skill__icon"></object>
+                     <span class="skill__name">Effective Communication</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
+                     </p>
+                  </div>
+               </div>
+	       <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/solving.svg" class="skill__icon"></object>
+                     <span class="skill__name">Problem Solving</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
+                     </p>
+                  </div>
+               </div>
+	       <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/professionalism.svg" class="skill__icon"></object>
+                     <span class="skill__name">Professionalism</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
+                     </p>
+                  </div>
+               </div>
+	       <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/teamwork.svg" class="skill__icon"></object>
+                     <span class="skill__name">Teamwork</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a href="#experience">Software Engineer Intern</a><br>
+                        • <a href="#experience">Quality Assurance Engineering Intern</a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+	    <div class="skills__container bd-grid">
+               <h2>Personal Interests</h2>
+            </div>
+            <div class="skills__container bd-grid">
+               <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/baseball.svg" class="skill__icon"></object>
+                     <span class="skill__name">Baseball</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a>East York Baseball</a><br>
+                        • <a>Canes Canada Baseball</a><br>
+			• <a>Queen's University Baseball</a>
+                     </p>
+                  </div>
+               </div>
+	       <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/paintbrush.svg" class="skill__icon"></object>
+                     <span class="skill__name">Visual Design</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a href="https://www.youtube.com/@Needlesx/videos">YouTube Channel</a>
+                     </p>
+                  </div>
+               </div>
+	       <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/video.svg" class="skill__icon"></object>
+                     <span class="skill__name">Video Editing</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a href="https://www.youtube.com/@Needlesx/videos">YouTube Channel</a>
+                     </p>
+                  </div>
+               </div>
+	       <div class="skill">
+                  <div class="skill__header">
+                     <object type="image/svg+xml" data="icons/dumbbell.svg" class="skill__icon"></object>
+                     <span class="skill__name">Weightlifting</span>
+                     <span class="skill__arrow">▼</span>
+                  </div>
+                  <div class="skill__dropdown">
+                     <p>
+                        <strong>Experience</strong> <br>
+                        • <a>Lifting for baseball</a><br>
+			• <a>Lifting for personal gains</a>
                      </p>
                   </div>
                </div>
             </div>
          </section>
-                    
          <!--===== DOCUMENTS =====-->
          <section class="documents section" id="documents">
             <h2 class="section-title">Documents</h2>
@@ -474,7 +684,7 @@
                <div class="document__card">
                   <div class="document__info">
                      <h3>Transcript</h3>
-                     <p>Official academic transcript</p>
+                     <p>Unofficial academic transcript in PDF format</p>
                   </div>
                   <a href="docs/ClarkeNeedles_UnofficialTranscript_Winter2025.pdf" download="Clarke_Needles_Transcript.pdf" class="download">
                   <i class="bx bxs-download download__icon"></i>
@@ -482,7 +692,6 @@
                </div>
             </div>
          </section>
-                    
          <!--===== CONTACT =====-->
          <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
@@ -497,7 +706,6 @@
             </div>
          </section>
       </main>
-                 
       <!--===== FOOTER =====-->
       <footer class="footer">
          <div class="footer__social">
@@ -509,16 +717,14 @@
             <a href="https://github.com/ClarkeNeedles" class="footer__icon"
                ><i class="bx bxl-github"></i
                ></a>
-            <a href="mailto:c.w.needles@gmail.com" class="footer__icon"
+            <a href="mailto:clarke.needles@queensu.ca" class="footer__icon"
                ><i class="bx bx-envelope-open"></i
                ></a>
          </div>
          <p class="footer__copy">&#169; Clarke Needles. All rights reserved.</p>
       </footer>
-
       <!--===== SCROLL REVEAL =====-->
       <script src="https://unpkg.com/scrollreveal"></script>
-
       <!--===== MAIN JS =====-->
       <script src="main.js"></script>
    </body>
